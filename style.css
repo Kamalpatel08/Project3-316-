@@ -1,0 +1,22 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#tank {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    border: 6px solid darkblue;
+    background: linear-gradient(to bottom, lightcyan, navy);
+    overflow: hidden;
+}
+
+.fish {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+}
